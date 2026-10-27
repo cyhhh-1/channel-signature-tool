@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AntdUI</id>
+    <version>2.4.11</version>
+    <authors>Tom</authors>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>logo.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://gitee.com/AntdUI/AntdUI</projectUrl>
+    <description>👚 基于 Ant Design 设计语言的 Winform 界面库</description>
+    <copyright>Copyright © Tom 2024-2030</copyright>
+    <tags>AntdUI Winform WinformUI AntDesign UI Control Ant 界面库 控件</tags>
+    <repository type="git" url="https://gitee.com/AntdUI/AntdUI" commit="bcf7d4bfc8c13a85f9378143e92e05f0e0ae1e57" />
+    <dependencies>
+      <group targetFramework="net10.0-windows7.0" />
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.8" />
+      <group targetFramework="net6.0-windows7.0" />
+      <group targetFramework="net8.0-windows7.0" />
+      <group targetFramework="net9.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net10.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.8" />
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+      <group targetFramework="net9.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Design" targetFramework=".NETFramework4.0, .NETFramework4.6, .NETFramework4.8" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

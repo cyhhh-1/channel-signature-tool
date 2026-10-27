@@ -1,0 +1,10 @@
+# 保持文件原始字节，避免 Windows/Linux 换行转换改变源码和模板。
+* -text
+
+# 二进制资源明确标记，便于 Git 识别和差异展示。
+*.dll binary
+*.exe binary
+*.ico binary
+*.png binary
+*.xlsx binary
+*.zip binary
